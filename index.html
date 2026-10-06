@@ -1,42 +1,55 @@
-<link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<html lang="es">
 
-<h1>📱 TechStore - Celulares y Tecnología</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi tienda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>📱 TechStore - Celulares y Tecnología</h1>
 
 
 
-<p class="slogan">
-  
-</p>
+  <p class="slogan">
 
-<div class="beneficios">
-  <span>🚚 Envíos en Bogotá</span>
-  <span>🔒 Compra segura</span>
-  <span>📦 Seguimiento de pedido</span>
-</div>
+  </p>
 
-<div id="productos"></div>
-
-<div class="carrito">
-  <h2>🧾 Carrito de Compras</h2>
-
-  <ul id="lista-carrito"></ul>
-
-  <div class="resumen">
-    <p>
-      Envío: <strong>Gratis</strong>
-    </p>
-
-    <p class="total">
-      Total: $<span id="total">0</span>
-    </p>
+  <div class="beneficios">
+    <span>🚚 Envíos en Bogotá</span>
+    <span>🔒 Compra segura</span>
+    <span>📦 Seguimiento de pedido</span>
   </div>
 
-  <button class="vaciar" onclick="vaciarCarrito()">
-    🧼 Vaciar Carrito
-  </button>
+  <div id="productos"></div>
 
-  <button class="finalizar" onclick="finalizarCompra()">
-    ✅ Finalizar Compra
-  </button>
-  <script src= script.js></script> 
-</div>
+  <div class="carrito">
+    <h2>🧾 Carrito de Compras</h2>
+
+    <ul id="lista-carrito"></ul>
+
+    <div class="resumen">
+      <p>
+        Envío: <strong>Gratis</strong>
+      </p>
+
+      <p class="total">
+        Total: $<span id="total">0</span>
+      </p>
+    </div>
+
+    <button class="vaciar" onclick="vaciarCarrito()">
+      🧼 Vaciar Carrito
+    </button>
+
+    <button class="finalizar" onclick="finalizarCompra()">
+      ✅ Finalizar Compra
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
